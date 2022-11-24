@@ -3,10 +3,12 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { NadavcComponent } from './nadavc/nadavc.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    NadavcComponent
   ],
   imports: [
     BrowserModule,
